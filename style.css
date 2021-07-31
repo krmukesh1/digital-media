@@ -41,7 +41,7 @@ body {
 .promo-title {
   font-size: 40px;
   font-weight: 600;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 .play-btn {
   width: 45px;
@@ -98,6 +98,10 @@ body {
   border-radius: 20px;
   background-image: linear-gradient(to right, #a517ba, #5f1782);
 }
+#services .btn-primary a {
+  color: #fff;
+  text-decoration: none;
+}
 /* about-us section */
 #about-us {
   background: #f8f9fa;
@@ -114,6 +118,26 @@ body {
 }
 #about-us ul {
   margin-left: 20px;
+}
+/* slider */
+section.slider {
+  padding: 20px 0;
+  margin-top: 50px;
+}
+section.slider h1 {
+  text-transform: uppercase;
+}
+.slick-carousel {
+  padding: 0px 0 0 0;
+}
+.slick-carousel p {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  border: none;
+}
+.slick-dots li button:before {
+  font-size: 15px;
 }
 /* TESTIMONIALS sECTION */
 #testimonials {
@@ -201,4 +225,48 @@ hr {
 .copyright a {
   text-decoration: none;
   color: #fff;
+}
+@media (max-width: 1200px) {
+  .slider h1.title::before {
+    content: "";
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(112px);
+  }
+}
+@media (max-width: 767px) {
+  .promo-title {
+    font-size: 30px;
+  }
+  .h1,
+  h1 {
+    font-size: 1.8rem;
+  }
+  .about-title {
+    font-size: 30px;
+  }
+  .title::before {
+    content: "";
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(50px);
+  }
+  .slider h1.title::before {
+    content: "";
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(116px);
+  }
 }
