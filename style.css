@@ -11,7 +11,7 @@ body {
   z-index: 10;
 }
 .navbar {
-  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  background-image: linear-gradient(to right, #009ad2, #6ed8ff);
   padding: 0 !important;
 }
 .navbar-brand img {
@@ -34,7 +34,7 @@ body {
 }
 /* banner section */
 #banner {
-  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  background-image: linear-gradient(to right, #009ad2, #6ed8ff);
   color: #fff;
   padding-top: 5%;
 }
@@ -72,7 +72,7 @@ body {
 }
 .title::before {
   content: "";
-  background: #7b1798;
+  background: #009ad2;
   height: 5px;
   width: 200px;
   margin-left: auto;
@@ -82,7 +82,7 @@ body {
 }
 .title::after {
   content: "";
-  background: #7b1798;
+  background: #009ad2;
   height: 10px;
   width: 50px;
   margin-left: auto;
@@ -96,7 +96,7 @@ body {
   padding: 8px 25px;
   border: none;
   border-radius: 20px;
-  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  background-image: linear-gradient(to right, #009ad2, #6ed8ff);
 }
 #services .btn-primary a {
   color: #fff;
@@ -144,7 +144,7 @@ section.slider h1 {
   margin: 100px 0;
 }
 .testimonials {
-  border-left: 4px solid #7b1798;
+  border-left: 4px solid #009ad2;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -177,7 +177,7 @@ section.slider h1 {
 }
 /* footer section */
 #footer {
-  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  background-image: linear-gradient(to right, #009ad2, #6ed8ff);
   color: #fff;
 }
 .footer-img {
@@ -198,7 +198,7 @@ section.slider h1 {
   text-align: center;
   padding-top: 7px;
   border-radius: 2px;
-  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  background-image: linear-gradient(to right, #009ad2, #6ed8ff);
 }
 .footer-box .form-control {
   box-shadow: none !important;
@@ -212,7 +212,7 @@ section.slider h1 {
   border: none;
   border-radius: 0;
   margin-top: 30px;
-  background-image: linear-gradient(to right, #a517ba, #5f1782);
+  background-image: linear-gradient(to right, #009ad2, #6ed8ff);
 }
 hr {
   background-color: #fff;
@@ -229,7 +229,7 @@ hr {
 @media (max-width: 1200px) {
   .slider h1.title::before {
     content: "";
-    background: #7b1798;
+    background: #009ad2;
     height: 5px;
     width: 200px;
     margin-left: auto;
@@ -251,7 +251,7 @@ hr {
   }
   .title::before {
     content: "";
-    background: #7b1798;
+    background: #009ad2;
     height: 5px;
     width: 200px;
     margin-left: auto;
@@ -261,7 +261,7 @@ hr {
   }
   .slider h1.title::before {
     content: "";
-    background: #7b1798;
+    background: #009ad2;
     height: 5px;
     width: 200px;
     margin-left: auto;
