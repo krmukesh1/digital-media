@@ -17,6 +17,7 @@ body {
 .navbar-brand img {
   height: 40px;
   padding-left: 20px;
+  margin: 10px 0;
 }
 .navbar-nav li {
   padding: 0 10px;
@@ -187,7 +188,8 @@ section.slider h1 {
   padding: 20px;
 }
 .footer-box img {
-  width: 50px;
+  height: 30px;
+  width: 100%;
   margin-bottom: 20px;
 }
 .footer-box .fa {
